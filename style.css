@@ -1,10 +1,70 @@
-h1, h2, p {
-	color: red;
-	}
-	
-	.class="project-list-items" {
-		background-color: red;
-	}
 
-	.class="skills-list-items" { background-color: blue'
+body { 
+	font-family: "Helvetica";
+	width: 400px;
+	margin: auto;
+
+	background-attachment: fixed;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
+img {
+	max-width: 200px;
+}
+
+
+h1, h2, h3, h4, tr, ul, li, p {
+	color: purple;
+}
+
+		
+#projects-float-right {
+	font-family: "Helvetica";
+	float: right;
+	width: 50%;
+}
+
+#skills-float-left {
+ 	font-family: "Helvetica";
+ 	float: left;
+ 	width: 50%;
+}
+	
+
+p {
+	background-color: gray;	
+}
+
+th, p {
+	color:purple;
+}
+ 
+.underline-word; {
+	text-decoration: underline;
+}
+
+#business-portrait {
+	padding: 20px 20px 20px 20px;
+}
+
+#business-portrait {
+	margin: 20px;
+}
+
+td, th {
+	border: 1px solid #999;
+	padding: 0.5em;
+	text-align: left;
+}
+
+table {
+	border-collapse: 
+}
+
+a:link    { color: yellow; } /* unvisited link */
+         a:visited { color: #00FF00; } /* visited link */
+         a:hover   { color: #FF00FF; } /* mouse over link */
+         a:active  { color: #0000FF; } /* selected link */
